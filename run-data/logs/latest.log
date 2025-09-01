@@ -1,0 +1,19 @@
+[06Aug2025 08:08:10.754] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\immis\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, endplus, --all, --output, C:\Users\immis\Abdullah\mc mod dev\EndPlus1.21.X\src\generated\resources, --existing, C:\Users\immis\Abdullah\mc mod dev\EndPlus1.21.X\src\main\resources]
+[06Aug2025 08:08:10.762] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+[06Aug2025 08:08:10.764] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.7 by Microsoft; OS Windows 11 arch amd64 version 10.0
+[06Aug2025 08:08:11.035] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[06Aug2025 08:08:11.268] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/immis/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[06Aug2025 08:08:14.131] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[06Aug2025 08:08:16.503] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\immis\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, endplus, --all, --output, C:\Users\immis\Abdullah\mc mod dev\EndPlus1.21.X\src\generated\resources, --existing, C:\Users\immis\Abdullah\mc mod dev\EndPlus1.21.X\src\main\resources]
+[06Aug2025 08:08:31.678] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.1.1, for MC 1.21.1 with MCP 20240808.132146
+[06Aug2025 08:08:31.678] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.1.1 Initialized
+[06Aug2025 08:08:31.760] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[06Aug2025 08:08:32.667] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [endplus]
+[06Aug2025 08:08:32.906] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/immis/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.1_mapped_parchment_2024.07.28-1.21/forge-1.21.1-52.1.1_mapped_parchment_2024.07.28-1.21.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[06Aug2025 08:08:32.908] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/immis/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.1.1_mapped_parchment_2024.07.28-1.21/forge-1.21.1-52.1.1_mapped_parchment_2024.07.28-1.21.jar%230!/data/.mcassetsroot' uses unexpected schema
+[06Aug2025 08:08:33.289] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: endplus
+[06Aug2025 08:08:33.355] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: endplus finished after 64 ms
+[06Aug2025 08:08:33.356] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[06Aug2025 08:08:34.288] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 931 ms
+[06Aug2025 08:08:34.289] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 999 ms
+[06Aug2025 08:08:34.306] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 16, old count: 0, new count: 17, removed stale: 0, written: 16

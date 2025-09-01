@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "endplus:block/twisting_end_vines"
+  },
+  "render_type": "cutout"
+}

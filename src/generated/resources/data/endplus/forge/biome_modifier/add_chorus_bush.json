@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#endplus:is_end_wilds",
+  "features": "endplus:chorus_bush_placed",
+  "step": "vegetal_decoration"
+}

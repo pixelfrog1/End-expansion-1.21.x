@@ -1,0 +1,53 @@
+{
+  "block.endplus.ender_foliage": "Ender Foliage",
+  "block.endplus.chorus_log": "Chorus Log",
+  "block.endplus.void_block": "Void Block",
+  "block.endplus.chorus_sprout_block": "Chorus Sprout Block",
+  "block.endplus.chorus_sapling": "Chorus Sapling",
+  "block.endplus.chorus_planks": "Chorus Planks",
+
+  "item.endplus.crystalline_dust": "Crystalline Dust",
+  "item.endplus.void_essence": "Void Essence",
+  "item.endplus.stellar_ashes": "Stellar Ashes",
+  "item.endplus.ender_ingot": "Ender Ingot",
+  "item.endplus.ender_sword": "Ender Sword",
+  "item.endplus.backstabber": "Backstabber",
+  "item.endplus.obsidian_claymore": "Obsidian Claymore",
+  "item.endplus.the_starless_night": "The Starless Night",
+
+  "item.endplus.liquid_void_bucket": "Bucket of Liquid Void",
+  "item.endplus.chorus_hanging_bulb": "Chorus Hanging Bulb",
+  "item.endplus.twisting_end_vines": "Twisting End Vines",
+  "item.endplus.chorus_sprouts": "Chorus Sprouts",
+  "item.endplus.ender_helmet": "Ender Cap",
+  "item.endplus.ender_chestplate": "Ender Robe",
+  "item.endplus.ender_leggings": "Ender Hem",
+  "item.endplus.ender_boots": "Ender Shoes",
+
+  "item.endplus.watchling_spawn_egg": "Watchling Spawn Egg",
+  "item.endplus.endersent_spawn_egg": "Endersent Spawn Egg",
+  "item.endplus.blastling_spawn_egg": "Blastling Spawn Egg",
+  "item.endplus.snareling_spawn_egg": "Snareling Spawn Egg",
+  "item.endplus.lumen_spawn_egg": "Lumen Spawn Egg",
+  "item.endplus.rampager_spawn_egg": "Rampager Spawn Egg",
+  "item.endplus.vengeful_heart_of_ender_spawn_egg": "Vengeful Heart Of Ender Spawn Egg",
+
+  "creativetab.endplus.endplus": "End++",
+
+  "entity.endplus.watchling": "Watchling",
+  "entity.endplus.endersent": "Endersent",
+  "entity.endplus.blastling": "Blastling",
+  "entity.endplus.snareling": "Snareling",
+  "entity.endplus.lumen": "Lumen",
+  "entity.endplus.rampager": "Rampager",
+  "entity.endplus.vengeful_heart_of_ender": "Vengeful Heart Of Ender",
+
+  "entity.endplus.snareling_goop": "Snareling Goop",
+  "entity.endplus.rampager_fireball": "Rampager Fireball",
+  "entity.endplus.orb_magic": "Orb Magic",
+
+  "effect.endplus.void_touched": "Void Touched",
+
+  "death.attack.void_touched": "%1$s was consumed by the great void",
+  "death.attack.void_touched.player": "%1$s was put into the great void by %2$s"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "endplus:item/chorus_hanging_bulb"
+  }
+}

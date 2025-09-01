@@ -1,0 +1,10 @@
+// 1.21.1	2025-08-06T08:08:34.2902228	Registries
+400107963044c23ca0a521265130ecf8d568b448 data/endplus/forge/biome_modifier/add_chorus.json
+672668b71431cd79fd4f835f5b6a7b1d52015bba data/endplus/forge/biome_modifier/add_chorus_bush.json
+4cb1dac29f341cad89ca44959f82ddb0b0a81b33 data/endplus/forge/biome_modifier/add_twisting_end_vines.json
+c569a1e5668c55e5ba49d284d355f013cd1d634a data/endplus/worldgen/configured_feature/chorus.json
+466a9d19e1ce2d5e55fae22970ebb7c0121f2252 data/endplus/worldgen/configured_feature/chorus_bush.json
+1d6c0b173a58447dfb5bcfcb0e2dfdf81d996a05 data/endplus/worldgen/configured_feature/twisting_end_vines.json
+f2cfa7f4d6ac9f958bd2de2e0941839ed85472ca data/endplus/worldgen/placed_feature/chorus_bush_placed.json
+783dbabe025414b01615f6c0cf41c847e0215bc8 data/endplus/worldgen/placed_feature/chorus_placed.json
+9bcd7633277355315e40a3eebd86a23c2989cea1 data/endplus/worldgen/placed_feature/twisting_end_vines_placed.json

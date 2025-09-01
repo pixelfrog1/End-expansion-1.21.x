@@ -1,0 +1,70 @@
+{
+  "temperature_modifier": "none",
+  "carvers": {},
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 10518688,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 0,
+    "water_color": 12763842,
+    "water_fog_color": 14408667
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:end_gateway_return"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 3
+      },
+      {
+        "type": "endplus:watchling",
+        "maxCount": 2,
+        "minCount": 2,
+        "weight": 5
+      },
+      {
+        "type": "endplus:blastling",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 2
+      },
+      {
+        "type": "endplus:snareling",
+        "maxCount": 6,
+        "minCount": 3,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.5
+}

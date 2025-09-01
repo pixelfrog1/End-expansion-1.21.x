@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "a": {
+      "item": "endplus:void_essence"
+    },
+    "b": {
+      "item": "endplus:crystalline_dust"
+    },
+    "c": {
+      "item": "endplus:stellar_ashes"
+    }
+  },
+  "pattern": [
+    "abc",
+    " X ",
+    "abc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "endplus:ender_ingot"
+  }
+}

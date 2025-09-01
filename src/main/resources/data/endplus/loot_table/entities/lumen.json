@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7,
+                "min": 4
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 7,
+                "min": 4
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "endplus:stellar_ashes"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "endplus:entities/lumen"
+}

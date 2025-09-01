@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#endplus:is_end_wilds",
+  "features": "endplus:twisting_end_vines_placed",
+  "step": "vegetal_decoration"
+}

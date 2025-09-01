@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "endplus:block/chorus_bulb_body"
+  },
+  "render_type": "cutout"
+}

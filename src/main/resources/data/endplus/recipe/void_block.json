@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "block",
+  "key": {
+    "#": {
+      "item": "endplus:void_essence"
+    }
+  },
+  "pattern": [
+    "## ",
+    "## ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "endplus:void_block"
+  }
+}

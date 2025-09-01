@@ -1,0 +1,13 @@
+{
+  "vengeful_heart_of_ender_music": {
+    "sounds": [
+      "endplus:vengeful_heart_of_ender_music"
+    ]
+  },
+
+  "vengeful_heart_of_ender_die": {
+    "sounds": [
+      "endplus:vengeful_heart_of_ender_die"
+    ]
+  }
+}

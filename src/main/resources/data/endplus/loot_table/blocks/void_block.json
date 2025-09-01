@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "amogusmod:suspicious_ash",
+          "count": 4
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "amogusmod:blocks/suspicious_ash"
+}

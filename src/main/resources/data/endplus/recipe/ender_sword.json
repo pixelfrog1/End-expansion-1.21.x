@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "endplus:ender_ingot"
+    },
+    "X": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    " # ",
+    " # ",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "endplus:ender_sword"
+  }
+}
