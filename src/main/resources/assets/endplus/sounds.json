@@ -1,13 +1,19 @@
 {
-  "vengeful_heart_of_ender_music": {
+  "music_vengeful_heart_of_ender_loop": {
     "sounds": [
-      "endplus:vengeful_heart_of_ender_music"
+      "endplus:music_vengeful_heart_of_ender_music"
     ]
   },
 
-  "vengeful_heart_of_ender_die": {
+  "music_vengeful_heart_of_ender_die": {
     "sounds": [
-      "endplus:vengeful_heart_of_ender_die"
+      "endplus:music_vengeful_heart_of_ender_die"
+    ]
+  },
+
+  "music_tenebre_rosso_sangue": {
+    "sounds": [
+      "endplus:music_tenebre_rosso_sangue"
     ]
   }
 }

@@ -1,10 +1,7 @@
 package net.pixelfrog.endplus.sound;
 
-import net.minecraft.core.Holder;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.ReloadableServerRegistries;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -16,9 +13,11 @@ public class ModSounds {
             DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, EndPlus.MOD_ID);
 
 
-    public static final RegistryObject<SoundEvent> VENGEFUL_HEART_OF_ENDER_MUSIC = registerSoundEvent("vengeful_heart_of_ender_music");
+    public static final RegistryObject<SoundEvent> MUSIC_VENGEFUL_HEART_OF_ENDER_LOOP = registerSoundEvent("music_vengeful_heart_of_ender_loop");
 
-    public static final RegistryObject<SoundEvent> VENGEFUL_HEART_OF_ENDER_DIE = registerSoundEvent("vengeful_heart_of_ender_die");
+    public static final RegistryObject<SoundEvent> MUSIC_VENGEFUL_HEART_OF_ENDER_DIE = registerSoundEvent("music_vengeful_heart_of_ender_die");
+
+    public static final RegistryObject<SoundEvent> MUSIC_TENEBRE_ROSSO_SANGUE = registerSoundEvent("music_tenebre_rosso_sangue");
 
     public static final RegistryObject<SoundEvent> VENGEFUL_HEART_OF_ENDER_SHOOT = registerSoundEvent("vengeful_heart_of_ender_shoot");
 

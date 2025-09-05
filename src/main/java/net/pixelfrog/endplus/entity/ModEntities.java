@@ -8,12 +8,11 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.pixelfrog.endplus.EndPlus;
 import net.pixelfrog.endplus.entity.custom.boss.VengefulHeartOfEnder;
-import net.pixelfrog.endplus.entity.custom.boss.Rampager;
+import net.pixelfrog.endplus.entity.custom.boss.*;
 import net.pixelfrog.endplus.entity.custom.monster.*;
 import net.pixelfrog.endplus.entity.custom.projectile.OrbMagic;
-import net.pixelfrog.endplus.entity.custom.projectile.RampagerFireball;
-import net.pixelfrog.endplus.entity.custom.projectile.SnarelingGoop;
-import net.pixelfrog.endplus.entity.custom.projectile.VoidSpew;
+import net.pixelfrog.endplus.entity.custom.projectile.*;
+
 
 public class ModEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES =
@@ -24,7 +23,6 @@ public class ModEntities {
             ENTITY_TYPES.register("watchling",
                     () -> EntityType.Builder.of(Watchling::new, MobCategory.MONSTER)
                             .sized(1f, 2f)
-                            .fireImmune()
                             .build(("watchling")));
 
     public static final RegistryObject<EntityType<Endersent>> ENDERSENT =

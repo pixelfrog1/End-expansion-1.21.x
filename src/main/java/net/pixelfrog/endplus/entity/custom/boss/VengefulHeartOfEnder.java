@@ -5,7 +5,6 @@ import net.minecraft.core.particles.ParticleOptions;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.BossEvent;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.AnimationState;
@@ -23,7 +22,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import net.pixelfrog.endplus.entity.custom.monster.Lumen;
 import net.pixelfrog.endplus.entity.custom.projectile.VoidSpew;
-import net.pixelfrog.endplus.sound.ModSounds;
+import net.pixelfrog.endplus.sound.ModMusic;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Random;
@@ -33,9 +32,10 @@ public class VengefulHeartOfEnder extends Monster {
     private int idleAnimationTimeout = 0;
     public final AnimationState sprayAnimationState = new AnimationState();
     public final AnimationState deathAnimationState = new AnimationState();
-    private int soundTicks = 2700;
     public boolean isOnSurface = true;
     private int attack = 0;
+
+    private boolean goodGamingChair = false;
 
     public VengefulHeartOfEnder(EntityType<? extends Monster> pEntityType, Level pLevel) {
         super(pEntityType, pLevel);
@@ -80,10 +80,12 @@ public class VengefulHeartOfEnder extends Monster {
             this.setupAnimationStates();
         }
 
-        this.soundTicks++;
-        if (this.soundTicks >= 2700) {
-            this.soundTicks = 0;
-            Musics.
+        if (true) {
+            if (!Minecraft.getInstance().getMusicManager().isPlayingMusic(ModMusic.TENEBRE_ROSSO_SANGUE))
+                Minecraft.getInstance().getMusicManager().startPlaying(ModMusic.TENEBRE_ROSSO_SANGUE);
+        } else {
+            if (!Minecraft.getInstance().getMusicManager().isPlayingMusic(ModMusic.VENGEFUL_HEART_OF_ENDER))
+                Minecraft.getInstance().getMusicManager().startPlaying(ModMusic.VENGEFUL_HEART_OF_ENDER);
         }
 
         Endermite endermite = new Endermite(EntityType.ENDERMITE, this.level());
@@ -141,8 +143,7 @@ public class VengefulHeartOfEnder extends Monster {
     public void die(@NotNull DamageSource pDamageSource) {
         super.die(pDamageSource);
 
-        Minecraft.getInstance().getSoundManager().stop();
-        ;
+        Minecraft.getInstance().getMusicManager().stopPlaying();
 
         this.idleAnimationState.stop();
         this.deathAnimationState.start(this.tickCount);
@@ -200,7 +201,7 @@ public class VengefulHeartOfEnder extends Monster {
 
         @Override
         public boolean canContinueToUse() {
-            return this.canUse() && this.attackAmount <= 5 && this.parent.attack == 1 && !this.stopped;
+            return this.canUse() && this.attackAmount <= 5 && this.parent.attack == 1 && !this.stopped && !this.parent.goodGamingChair;
         }
 
         @Override
@@ -263,6 +264,7 @@ public class VengefulHeartOfEnder extends Monster {
         private final VengefulHeartOfEnder parent;
         private int chargeTick = 0;
         private boolean stopped = false;
+        private Vec3 targetPos;
 
         public ChargeGoal(VengefulHeartOfEnder parent) {
             this.parent = parent;
@@ -275,13 +277,15 @@ public class VengefulHeartOfEnder extends Monster {
 
         @Override
         public boolean canContinueToUse() {
-            return this.canUse() && !this.stopped;
+            return this.canUse() && !this.stopped && !this.parent.goodGamingChair;
         }
 
         @Override
         public void start() {
             this.parent.lookControl.setLookAt(this.parent.getTarget());
             this.stopped = false;
+
+            this.targetPos = this.parent.getTarget().position();
         }
 
         @Override
@@ -297,11 +301,9 @@ public class VengefulHeartOfEnder extends Monster {
 
             if (this.chargeTick >= 100) {
                 Random random = new Random();
-                this.parent.stopInPlace();
 
                 if (this.chargeTick >= 140) {
-                    this.parent.lookControl.setLookAt(this.parent.getTarget());
-                    if (this.parent.distanceToSqr(this.parent.getTarget()) <= 10) {
+                    if (random.nextDouble() >= 0.5) {
                         this.parent.attack = 1;
                     } else {
                         this.parent.attack = 0;
@@ -309,7 +311,7 @@ public class VengefulHeartOfEnder extends Monster {
                     this.stopped = true;
                 }
             } else {
-                this.parent.moveControl.strafe(10, 0);
+                this.parent.setPos(this.targetPos);
             }
         }
     }

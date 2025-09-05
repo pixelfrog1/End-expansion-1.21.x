@@ -24,7 +24,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import net.pixelfrog.endplus.entity.ModEntities;
 import net.pixelfrog.endplus.entity.custom.monster.*;
-import net.pixelfrog.endplus.entity.custom.projectile.RampagerFireball;
+import net.pixelfrog.endplus.entity.custom.projectile.*;
 
 import java.util.Random;
 

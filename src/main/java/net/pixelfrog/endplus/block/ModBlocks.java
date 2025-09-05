@@ -35,9 +35,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS)));
 
     public static final RegistryObject<Block> VOID_BLOCK = registerBlock("void_block",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f)
-                    .sound(SoundType.STONE)));
+            () -> new VoidBlock(BlockBehaviour.Properties.of().strength(6f).sound(SoundType.STONE).noCollission()));
 
     public static final RegistryObject<Block> CHORUS_SAPLING = registerBlock("chorus_sapling",
             () -> new ChorusSaplingBlock(ModTreeGrowers.CHORUS, BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_SAPLING)));

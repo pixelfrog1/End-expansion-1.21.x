@@ -14,6 +14,7 @@ import net.pixelfrog.endplus.entity.custom.monster.Watchling;
 public class WatchlingRenderer extends MobRenderer<Watchling, WatchlingModel<Watchling>> {
     public WatchlingRenderer(EntityRendererProvider.Context pContext) {
         super(pContext, new WatchlingModel<>(pContext.bakeLayer(WatchlingModel.LAYER_LOCATION)), 0.85f);
+
         this.addLayer(new WatchlingEmissiveLayer<>(this));
     }
 

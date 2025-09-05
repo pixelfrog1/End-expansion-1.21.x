@@ -2,15 +2,12 @@ package net.pixelfrog.endplus.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SaplingBlock;
 import net.minecraft.world.level.block.grower.TreeGrower;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.common.PlantType;
 import net.pixelfrog.endplus.block.ModBlocks;
-
-import java.util.function.Supplier;
 
 public class ChorusSaplingBlock extends SaplingBlock {
     public ChorusSaplingBlock(TreeGrower treeGrower, Properties properties) {
