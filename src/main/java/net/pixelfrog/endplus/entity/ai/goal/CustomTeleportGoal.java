@@ -14,7 +14,6 @@ public class CustomTeleportGoal extends Goal {
     private Vec3 teleportPos;
 
     private int teleportTick;
-
     private boolean isUsing;
     private final boolean canTeleport;
 
