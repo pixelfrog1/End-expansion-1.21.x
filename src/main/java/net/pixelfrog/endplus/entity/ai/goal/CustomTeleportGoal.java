@@ -32,7 +32,7 @@ public class CustomTeleportGoal extends Goal {
 
     @Override
     public boolean canContinueToUse() {
-        return this.canUse() && this.isUsing;
+        return this.canUse();
     }
 
     @Override
